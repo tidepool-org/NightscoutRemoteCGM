@@ -13,12 +13,8 @@ import NightscoutKit
 
 public class NightscoutRemoteCGM: CGMManager {
     
-    public static let managerIdentifier = "NightscoutRemoteCGM"
+    public static let pluginIdentifier = "NightscoutRemoteCGM"
     
-    public var managerIdentifier: String {
-        return NightscoutRemoteCGM.managerIdentifier
-    }
-
     public static let localizedTitle = LocalizedString("Nightscout Remote CGM", comment: "Title for the CGMManager option")
     
     public var localizedTitle: String {
